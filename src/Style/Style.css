@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Lexend&family=Mulish:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
+label{
+  cursor: pointer;
+}
+::-webkit-input-placeholder{
+  text-transform: capitalize;
+}
+html,
+body {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.Wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+/* Navbar Start */
+.Navbar {
+  width: 100%;
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+  height: 156px;
+  background: #22222220;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav__Router {
+  width: 90%;
+  height: 100%;
+  display: flex;
+}
+.Navbar > .nav__Router > a {
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  width: 280px;
+  height: 100%;
+  display: flex;
+  font-weight: 500 !important;
+  align-items: center;
+  justify-content: center;
+  transition: 0.9s;
+  text-transform: uppercase;
+}
+.nav__Router > a:nth-child(1) {
+  width: 500px;
+}
+.nav__Router > a:nth-child(1).active {
+  background: linear-gradient(
+    262.26deg,
+    rgba(253, 186, 92, 0.9) -9.41%,
+    rgba(235, 213, 183, 0.9) 18.58%,
+    rgba(255, 149, 0, 0) 88.01%
+  );
+}
+.nav__Router > a.active {
+  background: linear-gradient(
+    278.99deg,
+    #fdba5c -10.27%,
+    #bd9762 50.92%,
+    rgba(255, 149, 0, 0) 145.15%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.ShowPage {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../Components/Imgs/mainImgs/homeBg.png) center / cover;
+}
+.nav__Language-Btn {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  user-select: none;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  transition: 0.5s;
+  font-size: 23px;
+}
+.nav__Language-Btn:active {
+  scale: 0.8;
+}
+/* Navbar End */
+/* Footer Start */
+.Footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 200px;
+  height: 136px;
+  background: #222222;
+}
+.footer__left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer__left > img {
+  width: 183px;
+}
+.footer__left-adress {
+  width: 290px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Kanit";
+  font-weight: 100 !important;
+  font-size: 25px;
+  line-height: 95%;
+  color: #ebc17c;
+}
+.footer__right {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 56px;
+}
+.footer__right-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25.3px;
+  line-height: 135%;
+  color: #ebc17c;
+}
+.footer__right-follow {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 100%;
+}
+.footer__right-follow > img {
+  cursor: pointer;
+}
+/* Footer End */
+
+/* Home Start */
+.Home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home__Left {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 78px;
+  line-height: 120%;
+  color: #fff;
+  width: 60%;
+  padding: 0 0 0 245px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home__Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 250px 0 0;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+.home-calcIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  padding: 19px;
+  border-radius: 50%;
+  background: linear-gradient(
+    246.23deg,
+    #f6cb8d 6.55%,
+    #e6dcce 50.06%,
+    #ffca7e 89.44%
+  );
+}
+.home__Inputs-box {
+  width: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.home-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #bd9762;
+  padding: 5px 10px;
+  background: #ffffff33;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  gap: 5px;
+  position: relative;
+}
+.home-input::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 98%;
+  left: 1%;
+  background: #ffffff9a;
+  border-radius: 5px;
+  height: 3px;
+}
+.home-input > input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+}
+.home-input > input::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 500;
+}
+.home__secondaryInputs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.home-input__secondary {
+  width: auto;
+  height: 52px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid #bd9762;
+  background: #ffffff33;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  position: relative;
+}
+.home-input__secondary::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 98%;
+  left: 1%;
+  background: #ffffff9a;
+  border-radius: 5px;
+  height: 3px;
+}
+.home-input__secondary > input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 80%;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+}
+.home-input__secondary > input::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 500;
+}
+.home__right-btn {
+  width: 90%;
+  background: linear-gradient(-45deg, #d19a4d 8.49%, #ffe1b7 99.64%);
+  background-size: 200%;
+  border-radius: 5px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 135%;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  transition: all 0.5s ease;
+}
+.home__right-btn:active{
+  scale: 0.9;
+}
+.home__right-btn:hover{
+  background-position: -100%;
+}
+/* Home End */
