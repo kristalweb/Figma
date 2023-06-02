@@ -47,7 +47,7 @@ body {
   gap: 50px;
 }
 .nav__Router {
-  width: 90%;
+  width: 100%;
   height: 100%;
   display: flex;
 }
@@ -64,12 +64,15 @@ body {
   transition: 0.9s;
   text-transform: uppercase;
 }
-.nav__Router > a:nth-child(1) {
+.nav__Router > a:nth-child(1){
   width: 500px;
 }
-.nav__Router > a:nth-child(1).active {
+.nav__Router > a:nth-child(5){
+  width: 500px;
+}
+.nav__Router > a:nth-child(1).active ,.nav__Router > a:nth-child(5).active {
   background: linear-gradient(
-    262.26deg,
+    62.26deg,
     rgba(253, 186, 92, 0.9) -9.41%,
     rgba(235, 213, 183, 0.9) 18.58%,
     rgba(255, 149, 0, 0) 88.01%
@@ -93,6 +96,8 @@ body {
   background: url(../Components/Imgs/mainImgs/homeBg.png) center / cover;
 }
 .nav__Language-Btn {
+  position: absolute;
+  right: 35px;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -408,8 +413,6 @@ body {
 }
 .aboutUs-After__content > h1 {
   font-family: "Kanit";
-  font-style: normal;
-  font-weight: 400;
   font-size: 35px;
   line-height: 52px;
   text-align: center;
@@ -417,11 +420,8 @@ body {
 }
 .aboutUs-After__content > p {
   font-family: "Kanit";
-  font-style: normal;
-  font-weight: 275;
   font-size: 25px;
   line-height: 37px;
-
   color: #ffffff;
 }
 /* AboutUs End */
