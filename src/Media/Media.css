@@ -1,6 +1,5 @@
 @media screen and (max-width: 1920px) and (min-width: 1660px) {
 }
-
 @media screen and (max-width: 1660px) and (min-width: 1200px) {
   :root {
     --index: calc(1vw + 1vh);

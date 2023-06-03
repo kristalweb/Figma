@@ -63,14 +63,16 @@ body {
   justify-content: center;
   transition: 0.9s;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
 }
-.nav__Router > a:nth-child(1){
+.nav__Router > a:nth-child(1) {
   width: 500px;
 }
-.nav__Router > a:nth-child(5){
+.nav__Router > a:nth-child(5) {
   width: 500px;
 }
-.nav__Router > a:nth-child(1).active ,.nav__Router > a:nth-child(5).active {
+.nav__Router > a:nth-child(1).active,
+.nav__Router > a:nth-child(5).active {
   background: linear-gradient(
     62.26deg,
     rgba(253, 186, 92, 0.9) -9.41%,
@@ -88,6 +90,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .nav__Router-phone-mode {
+  font-family: "Kanit", sans-serif;
   display: none;
 }
 .ShowPage {
@@ -144,7 +147,7 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  font-family: "Kanit";
+  font-family: "Kanit", sans-serif;
   font-weight: 100 !important;
   font-size: 25px;
   line-height: 95%;
@@ -161,7 +164,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 18px;
-  font-family: "Kanit";
+  font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 25.3px;
@@ -188,7 +191,7 @@ body {
   justify-content: flex-start;
 }
 .home__Left {
-  font-family: "Kanit";
+  font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: 500 !important;
   font-size: 78px;
@@ -199,6 +202,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+.home__Left:hover {
+  background: linear-gradient(45deg, #000, #fff);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: an_1 2s ease-in infinite;
+}
+@keyframes an_1 {
+  100% {
+    background-position: -200%;
+  }
 }
 .home__Right {
   width: 50%;
@@ -317,7 +333,7 @@ body {
   background: linear-gradient(-45deg, #d19a4d 8.49%, #ffe1b7 99.64%);
   background-size: 200%;
   border-radius: 5px;
-  font-family: "Kanit";
+  font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -357,7 +373,7 @@ body {
   padding-left: 45px;
 }
 .aboutUs-Before > h1 {
-  font-family: "Kanit";
+  font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 78.2632px;
@@ -412,14 +428,14 @@ body {
   justify-content: flex-start;
 }
 .aboutUs-After__content > h1 {
-  font-family: "Kanit";
+  font-family: "Kanit", sans-serif;
   font-size: 35px;
   line-height: 52px;
   text-align: center;
   color: #ffffff;
 }
 .aboutUs-After__content > p {
-  font-family: "Kanit";
+  font-family: "Kanit", sans-serif;
   font-size: 25px;
   line-height: 37px;
   color: #ffffff;
