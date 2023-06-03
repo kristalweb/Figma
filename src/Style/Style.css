@@ -11,7 +11,7 @@ button {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-button:active{
+button:active {
   scale: 0.8;
 }
 label {
@@ -559,3 +559,93 @@ body {
   border: none;
 }
 /* For Refence End*/
+
+/* For Xizmatlar Start */
+
+.hizmatlar_ota {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  font-size: 20px;
+  background-color: rgba(34, 34, 34, 1);
+  color: #ffffff;
+}
+
+.xizmatlar_ortaga {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  gap: 50px;
+}
+
+.hizmatlar_top {
+  display: flex;
+  color: #ffffff;
+}
+
+.hizmatlar_top > h1 {
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 120.02%;
+}
+
+.hizmatlar_cards {
+  display: flex;
+  gap: 30px;
+}
+
+.hizmatlar_card {
+  width: 471px;
+  height: 290px;
+  padding: 25px;
+  background: #222222;
+  box-shadow: 2px 4px 27px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hizmatlar_card_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hizmatlar_card_top > h3 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 112.5%;
+}
+
+.hizmatlar_card_top > img {
+  width: 80px;
+  height: 50px;
+}
+
+.hizmatlar_card_text {
+  width: 343px;
+  height: 119px;
+}
+
+.hizmatlar_card_text > p {
+  font-weight: 275;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.xizmatlar_bottom {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.hamkorlar_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+}
+
+/* For Xizmatlar End */
