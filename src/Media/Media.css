@@ -126,6 +126,11 @@
     line-height: calc(var(--index) * calc(0.043 * 35));
   }
   /* AboutUs End */
+  /* For Refence Start*/
+  .ForReference {
+    padding: 200px 100px 100px;
+  }
+  /* For Refence End*/
 }
 @media screen and (max-width: 1200px) and (min-width: 760px) {
   html,
@@ -144,7 +149,7 @@
     font-size: 15px;
     width: calc(var(--index) * calc(0.043 * 250));
   }
-  .nav__Router > a:nth-child(1){
+  .nav__Router > a:nth-child(1) {
     width: 30%;
     padding-right: 25px;
     display: flex;
@@ -284,6 +289,20 @@
     line-height: calc(var(--index) * calc(0.043 * 35));
   }
   /* AboutUs End */
+  /* For Refence Start*/
+  .ForReference {
+    padding: 120px 80px 50px;
+    flex-wrap: wrap;
+  }
+  .ForReference-Right > button {
+    background: linear-gradient(269.17deg, #d19a4d 8.49%, #ffe1b7 99.64%);
+    border-radius: 5px;
+    padding: 6px 80px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+  }
+  /* For Refence End*/
 }
 @media screen and (max-width: 760px) and (min-width: 500px) {
   html,
@@ -302,7 +321,7 @@
     font-size: 12px;
     width: calc(var(--index) * calc(0.043 * 170));
   }
-  .nav__Router > a:nth-child(1){
+  .nav__Router > a:nth-child(1) {
     width: 20%;
     padding-right: 10px;
     display: flex;
@@ -473,6 +492,46 @@
     line-height: calc(var(--index) * calc(0.043 * 40));
   }
   /* AboutUs End */
+  /* For Refence Start*/
+  .ForReference {
+    padding: 120px 80px 50px;
+    flex-wrap: wrap;
+  }
+  .ForReference-Left {
+    gap: 25px;
+  }
+  .ForReference-left__content > h1 {
+    font-size: 35px;
+  }
+  .ForReference-left__content > p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .ForReference-left__contacts {
+    gap: 25px;
+  }
+  .ForReference-contact > img {
+    width: 25px;
+  }
+  .ForReference-Right {
+    gap: 20px;
+  }
+  .ForReference-Right__two-inputs {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .ForReference-Right__two-inputs > input {
+    padding-left: 20px;
+    width: 100%;
+  }
+  .massage-Input > input {
+    padding-left: 20px;
+  }
+  .ForReference-Right > button {
+    padding: 6px 60px;
+    font-size: 20px;
+  }
+  /* For Refence End*/
 }
 @media screen and (max-width: 500px) and (min-width: 200px) {
   html,
@@ -722,4 +781,45 @@
     line-height: calc(var(--index) * calc(0.043 * 40));
   }
   /* AboutUs End */
+  /* For Refence Start*/
+  .ForReference {
+    padding: 80px 20px 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .ForReference-Left {
+    gap: 25px;
+  }
+  .ForReference-left__content > h1 {
+    font-size: 35px;
+  }
+  .ForReference-left__content > p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .ForReference-left__contacts {
+    gap: 25px;
+  }
+  .ForReference-contact > img {
+    width: 25px;
+  }
+  .ForReference-Right {
+    gap: 20px;
+  }
+  .ForReference-Right__two-inputs {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .ForReference-Right__two-inputs > input {
+    padding-left: 20px;
+    width: 100%;
+  }
+  .massage-Input > input {
+    padding-left: 20px;
+  }
+  .ForReference-Right > button {
+    padding: 6px 60px;
+    font-size: 20px;
+  }
+  /* For Refence End*/
 }
