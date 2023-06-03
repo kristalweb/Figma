@@ -58,7 +58,7 @@ export function ForReference() {
           <input type="text" placeholder="City*" />
         </div>
         <div className="massage-Input">
-          <input type="text" placeholder="Your Massage" />
+          <textarea placeholder="Your Massage" cols="30" rows="10"></textarea>
         </div>
         <button>{lang ? `JONATISH` : `ОТПРАВКА`}</button>
       </div>

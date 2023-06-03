@@ -20,6 +20,9 @@
   .nav__Router > a:nth-child(1) {
     width: 450px;
   }
+  .nav__Router > a:nth-child(5) {
+    width: 450px;
+  }
   .ShowPage {
     width: 100%;
     min-height: 100vh;
