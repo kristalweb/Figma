@@ -308,6 +308,10 @@
     border: none;
   }
   /* For Refence End*/
+<<<<<<< HEAD
+
+  /* For Xizmatlar Start */
+=======
   /* Gallery Start */
   .Gallery{
     padding: 200px 80px;
@@ -321,6 +325,7 @@
     gap: 15px;
   }
   /* Gallery End */
+>>>>>>> f11889fa39e2bba9e78011cab4f6f9832798b0c3
 }
 @media screen and (max-width: 760px) and (min-width: 500px) {
   html,
@@ -868,3 +873,5 @@
   }
   /* Gallery End */
 }
+
+/* For Xizmatlar start */
