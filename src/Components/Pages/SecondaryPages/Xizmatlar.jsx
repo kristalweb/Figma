@@ -13,11 +13,8 @@ import hamkor7 from "../../Imgs/secondaryImgs/hamkor7.png"
 import hamkor8 from "../../Imgs/secondaryImgs/hamkor8.png"
 
 export function Xizmatlar() {
-<<<<<<< HEAD
 
     let { lang } = useContext(Context);
-=======
->>>>>>> f11889fa39e2bba9e78011cab4f6f9832798b0c3
     return (
         <>
             <div className="hizmatlar_ota">
