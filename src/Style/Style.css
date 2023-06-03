@@ -102,6 +102,7 @@ body {
 .ShowPage {
   width: 100%;
   min-height: 100vh;
+  background: #222222;
   background: url(../Components/Imgs/mainImgs/homeBg.png) center / cover;
 }
 .nav__Language-Btn {
