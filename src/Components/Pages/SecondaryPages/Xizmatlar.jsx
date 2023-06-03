@@ -10,7 +10,7 @@ import hamkor6 from "../../Imgs/secondaryImgs/hamkor6.png"
 import hamkor7 from "../../Imgs/secondaryImgs/hamkor7.png"
 import hamkor8 from "../../Imgs/secondaryImgs/hamkor8.png"
 
-export default function Xizmatlar() {
+export function Xizmatlar() {
     return (
         <>
             <div className="hizmatlar_ota">
